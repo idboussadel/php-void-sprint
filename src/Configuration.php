@@ -146,7 +146,7 @@ final class Configuration implements ConfigurationBuilderInterface, Configuratio
      */
     private function invalidate(): void
     {
-        $this->cache       = [];
+        $this->cache = [];
         $this->finalConfig = new Data();
     }
 

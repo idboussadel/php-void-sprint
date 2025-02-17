@@ -1,0 +1,17 @@
+{
+    "name": "idboussadel/test-package",
+    "description": "This package should not be used; it is for testing purposes only.",
+    "type": "test",
+    "autoload": {
+        "psr-4": {
+            "Idboussadel\\TestPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "idboussadel",
+            "email": "idbouid@gmail.com"
+        }
+    ],
+    "require": {}
+}
